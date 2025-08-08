@@ -1,0 +1,14 @@
+
+#include<stdio.h>
+int main(){
+int n,z=1;
+scanf("%d",&n);
+while (n>=1){
+    //printf("%d \n", n%10);
+    z=z*(n%10);
+    //If u use float n=n-(n%10);
+    n=n/10;
+
+}
+printf("%d",z);
+}
